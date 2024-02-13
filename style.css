@@ -86,12 +86,18 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  body {
+    background-color: #333;
+  }
   .main_content {
     flex-direction: column;
     background-color: rgb(202, 126, 238);
   }
 }
 @media screen and (max-width: 575.98px) {
+  body {
+    background-color: goldenrod;
+  }
   .main_header,
   .content {
     flex-direction: column;
@@ -102,7 +108,7 @@ body {
   .content_item {
     background: rgb(55, 113, 179);
   }
-  .side_bar{
+  .side_bar {
     background: rgb(250, 125, 146);
   }
 }
