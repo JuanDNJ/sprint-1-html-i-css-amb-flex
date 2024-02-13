@@ -45,8 +45,7 @@ html, body{
 }
 .main_content{
     flex-direction: row;
-    gap: 1rem
-    ;
+    gap: 1rem;
 }
 .content{
     background: silver;
@@ -57,7 +56,7 @@ html, body{
     padding: 1rem;
 }
 .content_item{
-    flex-basis: 344px;
+    flex: 45% ;
     background: rgb(76, 90, 107);
     padding: 1rem;
 }
@@ -81,4 +80,12 @@ html, body{
 .main_footer{
     background-color: rgb(255, 233, 39);
     padding: 1rem;
+}
+
+@media screen and (max-width: 768px)  {
+    .main_content{
+        flex-direction: column;
+        background-color: mediumaquamarine;
+    }
+    
 }
