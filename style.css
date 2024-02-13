@@ -112,3 +112,13 @@ body {
     background: rgb(250, 125, 146);
   }
 }
+.logo:hover{
+    animation: hover_logo ease-in-out 400ms both  ;
+    cursor: pointer;
+}
+
+@keyframes hover_logo {
+   to{
+        transform: scale(1.1);
+    }
+}
