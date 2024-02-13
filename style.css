@@ -1,0 +1,84 @@
+*, *::after,*::before{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+html, body{
+    color: white;
+}
+.container{
+    background: black;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.main_header{
+    background: gray;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+.header_item{
+    background: rgb(243, 122, 122);
+    flex: 1;
+    padding: 1rem;
+}
+.content_navigation{
+    flex: 2;
+}
+.banner{
+    background: orange;
+    padding: 1rem;
+}
+.banner_item{
+    padding: 1rem;
+    background-color: rgb(243, 205, 102);
+}
+.main_content{
+    flex-direction: row;
+    gap: 1rem
+    ;
+}
+.content{
+    background: silver;
+    flex: 2;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+}
+.content_item{
+    flex-basis: 344px;
+    background: rgb(76, 90, 107);
+    padding: 1rem;
+}
+.content_footer{
+    background: skyblue;
+    flex-basis: 100%;
+    padding: 1rem;
+}
+.side_bar{
+    background: red;
+    flex: 1;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.side_bar_item{
+    background-color: rgb(247, 237, 151);
+    padding: 1rem;
+}
+.main_footer{
+    background-color: rgb(255, 233, 39);
+    padding: 1rem;
+}
